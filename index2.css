@@ -1,0 +1,95 @@
+.profile-card {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid #2a00b3c3;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+
+.profile-header {
+  background-color: #0056b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-header h2 {
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.profile-header p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  opacity: 0.9;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-table th, .profile-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.profile-table th {
+  width: 30%;
+  background-color: #e7f1ff;
+  color: #0056b3;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.profile-table td {
+  color: #333;
+  line-height: 1.6;
+  font-size: 0.95em;
+}
+
+.profile-table tr:last-child th, 
+.profile-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* フッターとボタン */
+.profile-footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f9f9f9;
+}
+
+/* 吹き出しボタン用設定 */
+.shuto-container {
+  position: relative;
+  display: inline-block;
+}
+
+.shuto-balloon {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff8c00;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.btn-shuto {
+  padding: 12px 25px;
+  background-color: #0056b3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.btn-shuto:hover {
+  background-color: #003d80;
+}

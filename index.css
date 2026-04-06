@@ -1,0 +1,10 @@
+.btn-shuto {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3700ff; /* ボタンの色 */
+  color: #ffffff;             /* 文字の色 */
+  text-decoration: none;      /* 下線を消す */
+  border-radius: 50px;        /* 角を丸くしてボタンらしく */
+  font-weight: bold;
+}
+
